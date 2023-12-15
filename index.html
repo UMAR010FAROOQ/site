@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+
+    <!-- bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+
+<!-- top card -->
+<div class="section">
+    <div class="container">
+        <div class="profile-box my-5">
+            <!-- <div>
+            <h1>Umar Farooq</h1>
+            <h4>Level 4</h4>
+            <h4>Referral Link: <span><b>NB-DMDE</b></span> <i class="fa-solid fa-clipboard ms-2"></i></h4>
+        </div> -->
+        <div class="card">
+            <div class="circle"></div>
+            <div class="circle d-none d-lg-block"></div>
+            <div class="card-inner">
+                <div class="card-img">
+                    <img src="https://dl.dropbox.com/s/u3j25jx9tkaruap/Webp.net-resizeimage.jpg?raw=1">
+                </div>
+                <h1>Umar Farooq</h1>
+            <h4>Level 4</h4>
+            <h4>Referral Link: <span><b>NB-DMDE</b></span> <i class="fa-solid fa-clipboard ms-2"></i></h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- main-content -->
+<div class="section main-content">
+    <div class="container d-flex justify-content-center flex-column">
+        <div class="row my-1">
+            <div class="col-4">
+                <a href="withdraw.html" class="text-decoration-none">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <h6>Withdraw</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="team.html" class="text-decoration-none">
+                    <div class="box box-2">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h6>Team</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="work.html" class="text-decoration-none">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h6>Daily Work</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row my-1">
+            <div class="col-4">
+                <a href="wallet.html" class="text-decoration-none">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-wallet"></i>
+                        <h6>Wallet</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="feedback.html" class="text-decoration-none">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-comment-dots"></i>
+                        <h6>Feedback</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="#aboutModal" class="text-decoration-none"  data-bs-toggle="modal">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-circle-question"></i>
+                        <h6>About Us</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row my-1">
+            <div class="col-4">
+                <a href="#guideModal" class="text-decoration-none" data-bs-toggle="modal">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-book-open"></i>
+                        <h6>Guide</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="#ruleModal" class="text-decoration-none"  data-bs-toggle="modal">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <h6>Rules</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="pkg.html" class="text-decoration-none">
+                    <div class="box box-1">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <h6>Package</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- guide desc model -->
+<div id="guideModal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+        <div class="modal-content">
+            <a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+            <div class="modal-body mt-3">
+                <h3 class="my-3">Guide</h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+
+<!-- rule desc model -->
+<div id="ruleModal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+        <div class="modal-content">
+            <a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+            <div class="modal-body mt-3">
+                <h3 class="my-3">Rule</h3>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+
+<!-- about desc model -->
+<div id="aboutModal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+        <div class="modal-content">
+            <a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+            <div class="modal-body mt-3">
+                <h3 class="my-3">About Us</h3>
+                <p> EARN is a e-commerce company,  EARN provides a complete set of services for online retailers including an independent business, so anyone looking to sell on  EARN will only be competing with other sellers</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+<div class="nav-section">
+    <div class="navigation">
+      <ul class="p-0">
+        <li class="list active" data-color="#1D2671">
+          <a href="index.html">
+            <span class="icon"><i class="fa-solid fa-house"></i></span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+        <li class="list" data-color="#1D2671">
+          <a href="withdraw.html">
+            <span class="icon"><i class="fa-solid fa-money-bill"></i></span>
+            <span class="title">Withdraw</span>
+          </a>
+        </li>
+        <li class="list" data-color="#1D2671">
+          <a href="wallet.html">
+            <span class="icon"><i class="fa-solid fa-wallet"></i></span>
+            <span class="title">Wallet</span>
+          </a>
+        </li>
+        <li class="list" data-color="#1D2671">
+          <a href="work.html">
+            <span class="icon"><i class="fa-solid fa-circle-check"></i></span>
+            <span class="title">Work</span>
+          </a>
+        </li>
+        <li class="list" data-color="#1D2671">
+          <a href="login.html">
+            <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+            <span class="title">Logout</span>
+          </a>
+        </li>
+        <div class="indicator"></div>
+      </ul>
+    </div>
+  </div>
+
+
+  <script  src="assets/js/nav.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
